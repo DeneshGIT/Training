@@ -14,10 +14,10 @@
 
 
 <c:forEach items="${listofpro}" var="prouserlist">
-${listofpro.empID}
-${listofpro.empName }
-${listofpro.deptCode }
-${listofpro.DOJ }
+${prouserlist.empID}
+${prouserlist.empName }
+${prouserlist.deptCode }
+${prouserlist.DOJ }
 </c:forEach>
 
 
